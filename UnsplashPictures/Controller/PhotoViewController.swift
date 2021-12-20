@@ -56,7 +56,10 @@ extension PhotoViewController: UICollectionViewDelegate, UICollectionViewDataSou
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        let photoDetailCollectionViewController = PhotoDetailCollectionViewController(collectionViewLayout: UICollectionViewLayout())
+        let photoDetailCollectionViewController = PhotoDetailCollectionViewController()
+        
+//        photoDetailCollectionViewController.photoId = 
+        
         navigationController?.pushViewController(photoDetailCollectionViewController, animated: true)
     }
 }

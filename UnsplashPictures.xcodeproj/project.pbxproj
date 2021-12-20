@@ -3,15 +3,25 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3744DD1B7FE47DE610641431 /* Pods_UnsplashPicturesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BC71752DBCA1E926D1BBCD9 /* Pods_UnsplashPicturesTests.framework */; };
+		613620B10E780DC8D659A4C9 /* Pods_UnsplashPictures.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14837C3F02D5F2C37C6E3DBE /* Pods_UnsplashPictures.framework */; };
 		B4079D2D276E3DB20054B38C /* PhotoDetailCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4079D2C276E3DB20054B38C /* PhotoDetailCollectionViewController.swift */; };
 		B4079D30276E5AC50054B38C /* PhotosCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4079D2F276E5AC50054B38C /* PhotosCollectionViewCell.swift */; };
 		B4079D33276E60270054B38C /* UIView+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4079D32276E60270054B38C /* UIView+Layout.swift */; };
 		B4079D35276E65910054B38C /* VerticalStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4079D34276E65910054B38C /* VerticalStackView.swift */; };
 		B4079D37276E66290054B38C /* PhotoDetailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4079D36276E66290054B38C /* PhotoDetailCollectionViewCell.swift */; };
+		B4879AE7276F82ED006AB6DD /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4879AE6276F82ED006AB6DD /* LayoutConstraint.swift */; };
+		B4879B1F276F888F006AB6DD /* PhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4879B1E276F888F006AB6DD /* PhotoModel.swift */; };
+		B4879B21276FC293006AB6DD /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4879B20276FC293006AB6DD /* HomeCollectionViewCell.swift */; };
+		B4879B23276FC2D8006AB6DD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4879B22276FC2D8006AB6DD /* HomeViewController.swift */; };
+		B4879D1C2770336A006AB6DD /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4879D1B2770336A006AB6DD /* DetailViewController.swift */; };
+		B4879D1E27704D86006AB6DD /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4879D1D27704D86006AB6DD /* UIImageView+Extensions.swift */; };
+		B4879D2627705E83006AB6DD /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4879D2527705E83006AB6DD /* ApiManager.swift */; };
+		B4879D2827705EAA006AB6DD /* UnsplashModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4879D2727705EAA006AB6DD /* UnsplashModel.swift */; };
 		B4FD4BB3276CE08F004D9287 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FD4BB2276CE08F004D9287 /* AppDelegate.swift */; };
 		B4FD4BB5276CE08F004D9287 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FD4BB4276CE08F004D9287 /* SceneDelegate.swift */; };
 		B4FD4BB7276CE08F004D9287 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FD4BB6276CE08F004D9287 /* PhotoViewController.swift */; };
@@ -20,6 +30,7 @@
 		B4FD4BBF276CE092004D9287 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4FD4BBD276CE092004D9287 /* LaunchScreen.storyboard */; };
 		B4FD4BCA276CE092004D9287 /* UnsplashPicturesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FD4BC9276CE092004D9287 /* UnsplashPicturesTests.swift */; };
 		B4FD4BD5276CE092004D9287 /* UnsplashPicturesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FD4BD4276CE092004D9287 /* UnsplashPicturesUITests.swift */; };
+		E05A10EC6EE963ACF77C06AC /* Pods_UnsplashPictures_UnsplashPicturesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D06590CE9AEE2CC0DC7574C /* Pods_UnsplashPictures_UnsplashPicturesUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,11 +51,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00FFC8A9E14DA94C4DD0F623 /* Pods-UnsplashPictures.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnsplashPictures.debug.xcconfig"; path = "Target Support Files/Pods-UnsplashPictures/Pods-UnsplashPictures.debug.xcconfig"; sourceTree = "<group>"; };
+		14837C3F02D5F2C37C6E3DBE /* Pods_UnsplashPictures.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UnsplashPictures.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1517085048ACCC4FAEB254D3 /* Pods-UnsplashPictures-UnsplashPicturesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnsplashPictures-UnsplashPicturesUITests.debug.xcconfig"; path = "Target Support Files/Pods-UnsplashPictures-UnsplashPicturesUITests/Pods-UnsplashPictures-UnsplashPicturesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1611D300E0FCAE9DC913DC8D /* Pods-UnsplashPicturesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnsplashPicturesTests.release.xcconfig"; path = "Target Support Files/Pods-UnsplashPicturesTests/Pods-UnsplashPicturesTests.release.xcconfig"; sourceTree = "<group>"; };
+		1741DE5A697048116EAC3B83 /* Pods-UnsplashPicturesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnsplashPicturesTests.debug.xcconfig"; path = "Target Support Files/Pods-UnsplashPicturesTests/Pods-UnsplashPicturesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		266F50CAC6D96E2912498058 /* Pods-UnsplashPictures-UnsplashPicturesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnsplashPictures-UnsplashPicturesUITests.release.xcconfig"; path = "Target Support Files/Pods-UnsplashPictures-UnsplashPicturesUITests/Pods-UnsplashPictures-UnsplashPicturesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2D06590CE9AEE2CC0DC7574C /* Pods_UnsplashPictures_UnsplashPicturesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UnsplashPictures_UnsplashPicturesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		429B2A767D933EB4967D4A11 /* Pods-UnsplashPictures.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnsplashPictures.release.xcconfig"; path = "Target Support Files/Pods-UnsplashPictures/Pods-UnsplashPictures.release.xcconfig"; sourceTree = "<group>"; };
+		5BC71752DBCA1E926D1BBCD9 /* Pods_UnsplashPicturesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UnsplashPicturesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4079D2C276E3DB20054B38C /* PhotoDetailCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailCollectionViewController.swift; sourceTree = "<group>"; };
 		B4079D2F276E5AC50054B38C /* PhotosCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewCell.swift; sourceTree = "<group>"; };
 		B4079D32276E60270054B38C /* UIView+Layout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Layout.swift"; sourceTree = "<group>"; };
 		B4079D34276E65910054B38C /* VerticalStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerticalStackView.swift; sourceTree = "<group>"; };
 		B4079D36276E66290054B38C /* PhotoDetailCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailCollectionViewCell.swift; sourceTree = "<group>"; };
+		B4879AE6276F82ED006AB6DD /* LayoutConstraint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutConstraint.swift; sourceTree = "<group>"; };
+		B4879B1E276F888F006AB6DD /* PhotoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModel.swift; sourceTree = "<group>"; };
+		B4879B20276FC293006AB6DD /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		B4879B22276FC2D8006AB6DD /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B4879D1B2770336A006AB6DD /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		B4879D1D27704D86006AB6DD /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
+		B4879D2527705E83006AB6DD /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		B4879D2727705EAA006AB6DD /* UnsplashModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsplashModel.swift; sourceTree = "<group>"; };
 		B4FD4BAF276CE08F004D9287 /* UnsplashPictures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnsplashPictures.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4FD4BB2276CE08F004D9287 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B4FD4BB4276CE08F004D9287 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				613620B10E780DC8D659A4C9 /* Pods_UnsplashPictures.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3744DD1B7FE47DE610641431 /* Pods_UnsplashPicturesTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,17 +110,42 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E05A10EC6EE963ACF77C06AC /* Pods_UnsplashPictures_UnsplashPicturesUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		255D0A317881FD45D43211B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14837C3F02D5F2C37C6E3DBE /* Pods_UnsplashPictures.framework */,
+				2D06590CE9AEE2CC0DC7574C /* Pods_UnsplashPictures_UnsplashPicturesUITests.framework */,
+				5BC71752DBCA1E926D1BBCD9 /* Pods_UnsplashPicturesTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		745002C2A92D476E47ACB9AC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				00FFC8A9E14DA94C4DD0F623 /* Pods-UnsplashPictures.debug.xcconfig */,
+				429B2A767D933EB4967D4A11 /* Pods-UnsplashPictures.release.xcconfig */,
+				1517085048ACCC4FAEB254D3 /* Pods-UnsplashPictures-UnsplashPicturesUITests.debug.xcconfig */,
+				266F50CAC6D96E2912498058 /* Pods-UnsplashPictures-UnsplashPicturesUITests.release.xcconfig */,
+				1741DE5A697048116EAC3B83 /* Pods-UnsplashPicturesTests.debug.xcconfig */,
+				1611D300E0FCAE9DC913DC8D /* Pods-UnsplashPicturesTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B4079D2B276E3D870054B38C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
 				B4FD4BB6276CE08F004D9287 /* PhotoViewController.swift */,
 				B4079D2C276E3DB20054B38C /* PhotoDetailCollectionViewController.swift */,
+				B4879B22276FC2D8006AB6DD /* HomeViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -100,6 +155,8 @@
 			children = (
 				B4079D2F276E5AC50054B38C /* PhotosCollectionViewCell.swift */,
 				B4079D36276E66290054B38C /* PhotoDetailCollectionViewCell.swift */,
+				B4879B20276FC293006AB6DD /* HomeCollectionViewCell.swift */,
+				B4879D1B2770336A006AB6DD /* DetailViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -109,8 +166,27 @@
 			children = (
 				B4079D34276E65910054B38C /* VerticalStackView.swift */,
 				B4079D32276E60270054B38C /* UIView+Layout.swift */,
+				B4879D1D27704D86006AB6DD /* UIImageView+Extensions.swift */,
+				B4879AE6276F82ED006AB6DD /* LayoutConstraint.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		B4879B1D276F8877006AB6DD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B4879B1E276F888F006AB6DD /* PhotoModel.swift */,
+				B4879D2727705EAA006AB6DD /* UnsplashModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B4879D2427705E71006AB6DD /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				B4879D2527705E83006AB6DD /* ApiManager.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 		B4FD4BA6276CE08F004D9287 = {
@@ -120,6 +196,8 @@
 				B4FD4BC8276CE092004D9287 /* UnsplashPicturesTests */,
 				B4FD4BD3276CE092004D9287 /* UnsplashPicturesUITests */,
 				B4FD4BB0276CE08F004D9287 /* Products */,
+				745002C2A92D476E47ACB9AC /* Pods */,
+				255D0A317881FD45D43211B0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -136,6 +214,8 @@
 		B4FD4BB1276CE08F004D9287 /* UnsplashPictures */ = {
 			isa = PBXGroup;
 			children = (
+				B4879D2427705E71006AB6DD /* Network */,
+				B4879B1D276F8877006AB6DD /* Model */,
 				B4079D31276E60170054B38C /* Helpers */,
 				B4079D2E276E4F220054B38C /* Views */,
 				B4079D2B276E3D870054B38C /* Controller */,
@@ -174,9 +254,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B4FD4BD9276CE092004D9287 /* Build configuration list for PBXNativeTarget "UnsplashPictures" */;
 			buildPhases = (
+				C7EB4BCA9D9D62D86FD4332D /* [CP] Check Pods Manifest.lock */,
 				B4FD4BAB276CE08F004D9287 /* Sources */,
 				B4FD4BAC276CE08F004D9287 /* Frameworks */,
 				B4FD4BAD276CE08F004D9287 /* Resources */,
+				010D9D38E38B7736DEB37F39 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -191,6 +273,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B4FD4BDC276CE092004D9287 /* Build configuration list for PBXNativeTarget "UnsplashPicturesTests" */;
 			buildPhases = (
+				E736247D70045C0E26BC2DDD /* [CP] Check Pods Manifest.lock */,
 				B4FD4BC1276CE092004D9287 /* Sources */,
 				B4FD4BC2276CE092004D9287 /* Frameworks */,
 				B4FD4BC3276CE092004D9287 /* Resources */,
@@ -209,9 +292,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B4FD4BDF276CE092004D9287 /* Build configuration list for PBXNativeTarget "UnsplashPicturesUITests" */;
 			buildPhases = (
+				EF2E33D026E94F015C1788EF /* [CP] Check Pods Manifest.lock */,
 				B4FD4BCC276CE092004D9287 /* Sources */,
 				B4FD4BCD276CE092004D9287 /* Frameworks */,
 				B4FD4BCE276CE092004D9287 /* Resources */,
+				882FBC0BD1C30CB6EB77711C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -292,19 +377,130 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		010D9D38E38B7736DEB37F39 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UnsplashPictures/Pods-UnsplashPictures-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UnsplashPictures/Pods-UnsplashPictures-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UnsplashPictures/Pods-UnsplashPictures-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		882FBC0BD1C30CB6EB77711C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UnsplashPictures-UnsplashPicturesUITests/Pods-UnsplashPictures-UnsplashPicturesUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UnsplashPictures-UnsplashPicturesUITests/Pods-UnsplashPictures-UnsplashPicturesUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UnsplashPictures-UnsplashPicturesUITests/Pods-UnsplashPictures-UnsplashPicturesUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7EB4BCA9D9D62D86FD4332D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UnsplashPictures-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E736247D70045C0E26BC2DDD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UnsplashPicturesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF2E33D026E94F015C1788EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UnsplashPictures-UnsplashPicturesUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B4FD4BAB276CE08F004D9287 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4879D1C2770336A006AB6DD /* DetailViewController.swift in Sources */,
 				B4FD4BB7276CE08F004D9287 /* PhotoViewController.swift in Sources */,
 				B4079D30276E5AC50054B38C /* PhotosCollectionViewCell.swift in Sources */,
 				B4079D37276E66290054B38C /* PhotoDetailCollectionViewCell.swift in Sources */,
 				B4079D33276E60270054B38C /* UIView+Layout.swift in Sources */,
 				B4079D2D276E3DB20054B38C /* PhotoDetailCollectionViewController.swift in Sources */,
+				B4879AE7276F82ED006AB6DD /* LayoutConstraint.swift in Sources */,
+				B4879D2627705E83006AB6DD /* ApiManager.swift in Sources */,
+				B4879B21276FC293006AB6DD /* HomeCollectionViewCell.swift in Sources */,
+				B4879D1E27704D86006AB6DD /* UIImageView+Extensions.swift in Sources */,
 				B4FD4BB3276CE08F004D9287 /* AppDelegate.swift in Sources */,
 				B4FD4BB5276CE08F004D9287 /* SceneDelegate.swift in Sources */,
+				B4879B1F276F888F006AB6DD /* PhotoModel.swift in Sources */,
+				B4879D2827705EAA006AB6DD /* UnsplashModel.swift in Sources */,
 				B4079D35276E65910054B38C /* VerticalStackView.swift in Sources */,
+				B4879B23276FC2D8006AB6DD /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -477,6 +673,7 @@
 		};
 		B4FD4BDA276CE092004D9287 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00FFC8A9E14DA94C4DD0F623 /* Pods-UnsplashPictures.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -496,6 +693,7 @@
 		};
 		B4FD4BDB276CE092004D9287 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 429B2A767D933EB4967D4A11 /* Pods-UnsplashPictures.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -515,6 +713,7 @@
 		};
 		B4FD4BDD276CE092004D9287 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1741DE5A697048116EAC3B83 /* Pods-UnsplashPicturesTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -537,6 +736,7 @@
 		};
 		B4FD4BDE276CE092004D9287 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1611D300E0FCAE9DC913DC8D /* Pods-UnsplashPicturesTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -559,6 +759,7 @@
 		};
 		B4FD4BE0276CE092004D9287 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1517085048ACCC4FAEB254D3 /* Pods-UnsplashPictures-UnsplashPicturesUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -579,6 +780,7 @@
 		};
 		B4FD4BE1276CE092004D9287 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 266F50CAC6D96E2912498058 /* Pods-UnsplashPictures-UnsplashPicturesUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

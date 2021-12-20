@@ -55,6 +55,7 @@ class PhotoDetailCollectionViewCell: UICollectionViewCell {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
+        backgroundColor = .purple
     }
     
     required init?(coder: NSCoder) {
