@@ -6,40 +6,21 @@
 //
 
 import UIKit
+import SDWebImage
 
 class DetailViewController: UIViewController {
     
-//    private let swipeView = UIScrollView(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: 8))
-    
-    let arrayOfText = ["haeag", "ahgla", "ahgalj", "llagja", "lhglakjg", "jajgaj", "haeag", "ahgla", "ahgalj", "llagja"]
-    let arrayOfImages: [UIImage] = [
-        UIImage(named: "DSCF6496.jpg")!,
-        UIImage(named: "DSCF6520.jpg")!,
-        UIImage(named: "DSCF6518.jpg")!,
-        UIImage(named: "DSCF6531.jpg")!,
-        UIImage(named: "DSCF6533.jpg")!,
-        UIImage(named: "DSCF6597.jpg")!,
-        UIImage(named: "DSCF6590.jpg")!,
-        UIImage(named: "DSCF6631.jpg")!,
-        UIImage(named: "DSCF6544.jpg")!,
-        UIImage(named: "DSCF6593.jpg")!
-    ]
-    
-    //dependency Injection
-    var hdPhotoModel: PhotoModel!
-    
-    
+    var imageArray: [UnsplashModel] = []
     var position = Int()
-//
+    
     private let scrollView = UIScrollView()
     private let contentView = UIView()
     
     private let imageView: UIImageView = {
         let imageView = UIImageView()
         imageView.contentMode = .scaleAspectFit
-        imageView.backgroundColor = .orange
+        imageView.backgroundColor = .systemBackground
         imageView.clipsToBounds = true
-        imageView.layer.cornerRadius = 16
         imageView.translatesAutoresizingMaskIntoConstraints = false
         return imageView
     }()
@@ -57,8 +38,14 @@ class DetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .systemBackground
+        navigationItem.title = "PHOTO DETAIL"
+    
         setupScrollViews()
         
+        createdLabel.text = "Created by \(imageArray[position].user?.name ?? "")"
+        imageView.sd_setImage(with: URL(string: imageArray[position].urls?.thumb ?? ""))
+        
+ 
         let swipeRight = UISwipeGestureRecognizer(target: self, action: #selector(handleGesture))
         swipeRight.direction = .right
         view.addGestureRecognizer(swipeRight)
@@ -78,8 +65,6 @@ class DetailViewController: UIViewController {
         contentView.addSubview(imageView)
         contentView.addSubview(createdLabel)
         
-//        scrollView.anchor(top: view.topAnchor, leading: nil, bottom: view.bottomAnchor, trailing: nil)
-//        scrollView.centerXInSuperview()
         scrollView.topAnchor.constraint(equalTo: view.topAnchor).isActive = true
         scrollView.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
         scrollView.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
@@ -90,7 +75,6 @@ class DetailViewController: UIViewController {
         contentView.centerXAnchor.constraint(equalTo: scrollView.centerXAnchor).isActive = true
         contentView.widthAnchor.constraint(equalTo: scrollView.widthAnchor).isActive = true
         
-//        imageView.anchor(top: 20, leading: 20, bottom: nil, trailing: 20)
         imageView.anchor(top: contentView.topAnchor, leading: contentView.leadingAnchor, bottom: nil, trailing: contentView.trailingAnchor, padding: UIEdgeInsets(top: 20, left: 10, bottom: 0, right: 10), size: CGSize(width: 0, height: 600))
         
         createdLabel.anchor(top: imageView.bottomAnchor, leading: contentView.leadingAnchor, bottom: contentView.bottomAnchor, trailing: contentView.trailingAnchor, padding: UIEdgeInsets(top: 20, left: 10, bottom: 10, right: 10))
@@ -101,21 +85,22 @@ class DetailViewController: UIViewController {
 // Gesture Handlers
 extension DetailViewController {
     @objc func handleGesture(gesture: UISwipeGestureRecognizer) -> Void {
+        var detailImage = imageArray[position]
         switch gesture.direction {
         case .left:
-            print("swipe left")
-            if position < arrayOfText.count - 1 {
+            if  position < imageArray.count - 1 {
                 position = position + 1
-                createdLabel.text = arrayOfText[position]
-                imageView.image = arrayOfImages[position]
+                detailImage = imageArray[position]
+                createdLabel.text = "Created by \(detailImage.user?.name ?? "")"
+                imageView.sd_setImage(with: URL(string: detailImage.urls?.thumb ?? ""))
                 imageView.leftToRightAnimation()
             }
         case .right:
-            print("swiped right")
             if position > 0 {
                 position = position - 1
-                createdLabel.text = arrayOfText[position]
-                imageView.image = arrayOfImages[position]
+                detailImage = imageArray[position]
+                createdLabel.text = "Created by \(detailImage.user?.name ?? "")"
+                imageView.sd_setImage(with: URL(string: detailImage.urls?.thumb ?? ""))
                 imageView.rightToLeftAnimation()
             }
         default:

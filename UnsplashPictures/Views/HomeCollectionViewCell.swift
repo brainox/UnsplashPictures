@@ -21,27 +21,13 @@ class HomeCollectionViewCell: UICollectionViewCell {
         let imageView = UIImageView()
         imageView.clipsToBounds = true
         imageView.contentMode = .scaleToFill
+        imageView.layer.cornerRadius = 10
         return imageView
     }()
     
     override init(frame: CGRect) {
         super.init(frame: frame)
         contentView.addSubview(imageView)
-        
-        let images: [UIImage] = [
-            UIImage(named: "DSCF6496.jpg"),
-            UIImage(named: "DSCF6520.jpg"),
-            UIImage(named: "DSCF6518.jpg"),
-            UIImage(named: "DSCF6531.jpg"),
-            UIImage(named: "DSCF6533.jpg"),
-            UIImage(named: "DSCF6597.jpg"),
-            UIImage(named: "DSCF6590.jpg"),
-            UIImage(named: "DSCF6631.jpg"),
-            UIImage(named: "DSCF6544.jpg"),
-            UIImage(named: "DSCF6593.jpg")
-        ].compactMap { $0 }
-        imageView.image = images.randomElement()
-        contentView.clipsToBounds = true
     }
     
     required init?(coder: NSCoder) {
