@@ -14,6 +14,32 @@
 		B4079D33276E60270054B38C /* UIView+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4079D32276E60270054B38C /* UIView+Layout.swift */; };
 		B4079D35276E65910054B38C /* VerticalStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4079D34276E65910054B38C /* VerticalStackView.swift */; };
 		B4079D37276E66290054B38C /* PhotoDetailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4079D36276E66290054B38C /* PhotoDetailCollectionViewCell.swift */; };
+		B43613EC2770A189008EEA61 /* barton_nature_leeve.JPG in Resources */ = {isa = PBXBuildFile; fileRef = B43612DE2770A188008EEA61 /* barton_nature_leeve.JPG */; };
+		B43613ED2770A189008EEA61 /* bird_hills_nature_foliage.JPG in Resources */ = {isa = PBXBuildFile; fileRef = B43612DF2770A188008EEA61 /* bird_hills_nature_foliage.JPG */; };
+		B43613EE2770A189008EEA61 /* winsor_skyline_hd.png in Resources */ = {isa = PBXBuildFile; fileRef = B43612E02770A188008EEA61 /* winsor_skyline_hd.png */; };
+		B43613EF2770A189008EEA61 /* vertical_strip_hd.png in Resources */ = {isa = PBXBuildFile; fileRef = B43612E12770A188008EEA61 /* vertical_strip_hd.png */; };
+		B43613F02770A189008EEA61 /* bird_hills_nature_tree_hd.JPG in Resources */ = {isa = PBXBuildFile; fileRef = B43612E22770A188008EEA61 /* bird_hills_nature_tree_hd.JPG */; };
+		B43613F12770A189008EEA61 /* barton_nature_swan.JPG in Resources */ = {isa = PBXBuildFile; fileRef = B43612E32770A188008EEA61 /* barton_nature_swan.JPG */; };
+		B43613F22770A189008EEA61 /* bird_hills_nature_sunset.JPG in Resources */ = {isa = PBXBuildFile; fileRef = B43612E42770A188008EEA61 /* bird_hills_nature_sunset.JPG */; };
+		B43613F32770A189008EEA61 /* barton_nature_area_bridge.JPG in Resources */ = {isa = PBXBuildFile; fileRef = B43612E52770A188008EEA61 /* barton_nature_area_bridge.JPG */; };
+		B43613F42770A189008EEA61 /* barton_nature_area_bridge_hd.JPG in Resources */ = {isa = PBXBuildFile; fileRef = B43612E62770A189008EEA61 /* barton_nature_area_bridge_hd.JPG */; };
+		B43613F52770A189008EEA61 /* vertical_strip.png in Resources */ = {isa = PBXBuildFile; fileRef = B43612E72770A189008EEA61 /* vertical_strip.png */; };
+		B43613F62770A189008EEA61 /* bird_hills_nature_foliage_hd.JPG in Resources */ = {isa = PBXBuildFile; fileRef = B43612E82770A189008EEA61 /* bird_hills_nature_foliage_hd.JPG */; };
+		B43613F72770A189008EEA61 /* willowtree_apartment_sunset_hd.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B43612E92770A189008EEA61 /* willowtree_apartment_sunset_hd.jpg */; };
+		B43613F82770A189008EEA61 /* barton_nature_lake_hd.JPG in Resources */ = {isa = PBXBuildFile; fileRef = B43612EA2770A189008EEA61 /* barton_nature_lake_hd.JPG */; };
+		B43613F92770A189008EEA61 /* horizontal_strip.png in Resources */ = {isa = PBXBuildFile; fileRef = B43612EB2770A189008EEA61 /* horizontal_strip.png */; };
+		B43613FA2770A189008EEA61 /* barton_nature_leeve_hd.JPG in Resources */ = {isa = PBXBuildFile; fileRef = B43612EC2770A189008EEA61 /* barton_nature_leeve_hd.JPG */; };
+		B43613FB2770A189008EEA61 /* leslie_park.png in Resources */ = {isa = PBXBuildFile; fileRef = B43612ED2770A189008EEA61 /* leslie_park.png */; };
+		B43613FC2770A189008EEA61 /* barton_nature_lake.JPG in Resources */ = {isa = PBXBuildFile; fileRef = B43612EE2770A189008EEA61 /* barton_nature_lake.JPG */; };
+		B43613FD2770A189008EEA61 /* bird_hills_nature_sunset_hd.JPG in Resources */ = {isa = PBXBuildFile; fileRef = B43612EF2770A189008EEA61 /* bird_hills_nature_sunset_hd.JPG */; };
+		B43613FE2770A189008EEA61 /* horizontal_strip_hd.png in Resources */ = {isa = PBXBuildFile; fileRef = B43612F02770A189008EEA61 /* horizontal_strip_hd.png */; };
+		B43613FF2770A189008EEA61 /* huron_river_hd.JPG in Resources */ = {isa = PBXBuildFile; fileRef = B43612F12770A189008EEA61 /* huron_river_hd.JPG */; };
+		B43614002770A189008EEA61 /* huron_river.JPG in Resources */ = {isa = PBXBuildFile; fileRef = B43612F22770A189008EEA61 /* huron_river.JPG */; };
+		B43614012770A189008EEA61 /* winsor_skyline.png in Resources */ = {isa = PBXBuildFile; fileRef = B43612F32770A189008EEA61 /* winsor_skyline.png */; };
+		B43614022770A189008EEA61 /* willowtree_apartment_sunset.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B43612F42770A189008EEA61 /* willowtree_apartment_sunset.jpg */; };
+		B43614032770A189008EEA61 /* bird_hills_nature_tree.JPG in Resources */ = {isa = PBXBuildFile; fileRef = B43612F52770A189008EEA61 /* bird_hills_nature_tree.JPG */; };
+		B43614042770A189008EEA61 /* barton_nature_swan_hd.JPG in Resources */ = {isa = PBXBuildFile; fileRef = B43612F62770A189008EEA61 /* barton_nature_swan_hd.JPG */; };
+		B43614052770A189008EEA61 /* leslie_park_hd.png in Resources */ = {isa = PBXBuildFile; fileRef = B43612F72770A189008EEA61 /* leslie_park_hd.png */; };
 		B4879AE7276F82ED006AB6DD /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4879AE6276F82ED006AB6DD /* LayoutConstraint.swift */; };
 		B4879B1F276F888F006AB6DD /* PhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4879B1E276F888F006AB6DD /* PhotoModel.swift */; };
 		B4879B21276FC293006AB6DD /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4879B20276FC293006AB6DD /* HomeCollectionViewCell.swift */; };
@@ -22,6 +48,7 @@
 		B4879D1E27704D86006AB6DD /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4879D1D27704D86006AB6DD /* UIImageView+Extensions.swift */; };
 		B4879D2627705E83006AB6DD /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4879D2527705E83006AB6DD /* ApiManager.swift */; };
 		B4879D2827705EAA006AB6DD /* UnsplashModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4879D2727705EAA006AB6DD /* UnsplashModel.swift */; };
+		B4879D2A27709D05006AB6DD /* PhotosLoadingFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4879D2927709D05006AB6DD /* PhotosLoadingFooter.swift */; };
 		B4FD4BB3276CE08F004D9287 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FD4BB2276CE08F004D9287 /* AppDelegate.swift */; };
 		B4FD4BB5276CE08F004D9287 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FD4BB4276CE08F004D9287 /* SceneDelegate.swift */; };
 		B4FD4BB7276CE08F004D9287 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FD4BB6276CE08F004D9287 /* PhotoViewController.swift */; };
@@ -65,6 +92,32 @@
 		B4079D32276E60270054B38C /* UIView+Layout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Layout.swift"; sourceTree = "<group>"; };
 		B4079D34276E65910054B38C /* VerticalStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerticalStackView.swift; sourceTree = "<group>"; };
 		B4079D36276E66290054B38C /* PhotoDetailCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailCollectionViewCell.swift; sourceTree = "<group>"; };
+		B43612DE2770A188008EEA61 /* barton_nature_leeve.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = barton_nature_leeve.JPG; sourceTree = "<group>"; };
+		B43612DF2770A188008EEA61 /* bird_hills_nature_foliage.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bird_hills_nature_foliage.JPG; sourceTree = "<group>"; };
+		B43612E02770A188008EEA61 /* winsor_skyline_hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = winsor_skyline_hd.png; sourceTree = "<group>"; };
+		B43612E12770A188008EEA61 /* vertical_strip_hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vertical_strip_hd.png; sourceTree = "<group>"; };
+		B43612E22770A188008EEA61 /* bird_hills_nature_tree_hd.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bird_hills_nature_tree_hd.JPG; sourceTree = "<group>"; };
+		B43612E32770A188008EEA61 /* barton_nature_swan.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = barton_nature_swan.JPG; sourceTree = "<group>"; };
+		B43612E42770A188008EEA61 /* bird_hills_nature_sunset.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bird_hills_nature_sunset.JPG; sourceTree = "<group>"; };
+		B43612E52770A188008EEA61 /* barton_nature_area_bridge.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = barton_nature_area_bridge.JPG; sourceTree = "<group>"; };
+		B43612E62770A189008EEA61 /* barton_nature_area_bridge_hd.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = barton_nature_area_bridge_hd.JPG; sourceTree = "<group>"; };
+		B43612E72770A189008EEA61 /* vertical_strip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vertical_strip.png; sourceTree = "<group>"; };
+		B43612E82770A189008EEA61 /* bird_hills_nature_foliage_hd.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bird_hills_nature_foliage_hd.JPG; sourceTree = "<group>"; };
+		B43612E92770A189008EEA61 /* willowtree_apartment_sunset_hd.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = willowtree_apartment_sunset_hd.jpg; sourceTree = "<group>"; };
+		B43612EA2770A189008EEA61 /* barton_nature_lake_hd.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = barton_nature_lake_hd.JPG; sourceTree = "<group>"; };
+		B43612EB2770A189008EEA61 /* horizontal_strip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = horizontal_strip.png; sourceTree = "<group>"; };
+		B43612EC2770A189008EEA61 /* barton_nature_leeve_hd.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = barton_nature_leeve_hd.JPG; sourceTree = "<group>"; };
+		B43612ED2770A189008EEA61 /* leslie_park.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leslie_park.png; sourceTree = "<group>"; };
+		B43612EE2770A189008EEA61 /* barton_nature_lake.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = barton_nature_lake.JPG; sourceTree = "<group>"; };
+		B43612EF2770A189008EEA61 /* bird_hills_nature_sunset_hd.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bird_hills_nature_sunset_hd.JPG; sourceTree = "<group>"; };
+		B43612F02770A189008EEA61 /* horizontal_strip_hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = horizontal_strip_hd.png; sourceTree = "<group>"; };
+		B43612F12770A189008EEA61 /* huron_river_hd.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = huron_river_hd.JPG; sourceTree = "<group>"; };
+		B43612F22770A189008EEA61 /* huron_river.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = huron_river.JPG; sourceTree = "<group>"; };
+		B43612F32770A189008EEA61 /* winsor_skyline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = winsor_skyline.png; sourceTree = "<group>"; };
+		B43612F42770A189008EEA61 /* willowtree_apartment_sunset.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = willowtree_apartment_sunset.jpg; sourceTree = "<group>"; };
+		B43612F52770A189008EEA61 /* bird_hills_nature_tree.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bird_hills_nature_tree.JPG; sourceTree = "<group>"; };
+		B43612F62770A189008EEA61 /* barton_nature_swan_hd.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = barton_nature_swan_hd.JPG; sourceTree = "<group>"; };
+		B43612F72770A189008EEA61 /* leslie_park_hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leslie_park_hd.png; sourceTree = "<group>"; };
 		B4879AE6276F82ED006AB6DD /* LayoutConstraint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutConstraint.swift; sourceTree = "<group>"; };
 		B4879B1E276F888F006AB6DD /* PhotoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModel.swift; sourceTree = "<group>"; };
 		B4879B20276FC293006AB6DD /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -73,6 +126,7 @@
 		B4879D1D27704D86006AB6DD /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
 		B4879D2527705E83006AB6DD /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
 		B4879D2727705EAA006AB6DD /* UnsplashModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsplashModel.swift; sourceTree = "<group>"; };
+		B4879D2927709D05006AB6DD /* PhotosLoadingFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosLoadingFooter.swift; sourceTree = "<group>"; };
 		B4FD4BAF276CE08F004D9287 /* UnsplashPictures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnsplashPictures.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4FD4BB2276CE08F004D9287 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B4FD4BB4276CE08F004D9287 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -157,6 +211,7 @@
 				B4079D36276E66290054B38C /* PhotoDetailCollectionViewCell.swift */,
 				B4879B20276FC293006AB6DD /* HomeCollectionViewCell.swift */,
 				B4879D1B2770336A006AB6DD /* DetailViewController.swift */,
+				B4879D2927709D05006AB6DD /* PhotosLoadingFooter.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -170,6 +225,39 @@
 				B4879AE6276F82ED006AB6DD /* LayoutConstraint.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		B43611DC2770A188008EEA61 /* ImageSamples */ = {
+			isa = PBXGroup;
+			children = (
+				B43612DE2770A188008EEA61 /* barton_nature_leeve.JPG */,
+				B43612DF2770A188008EEA61 /* bird_hills_nature_foliage.JPG */,
+				B43612E02770A188008EEA61 /* winsor_skyline_hd.png */,
+				B43612E12770A188008EEA61 /* vertical_strip_hd.png */,
+				B43612E22770A188008EEA61 /* bird_hills_nature_tree_hd.JPG */,
+				B43612E32770A188008EEA61 /* barton_nature_swan.JPG */,
+				B43612E42770A188008EEA61 /* bird_hills_nature_sunset.JPG */,
+				B43612E52770A188008EEA61 /* barton_nature_area_bridge.JPG */,
+				B43612E62770A189008EEA61 /* barton_nature_area_bridge_hd.JPG */,
+				B43612E72770A189008EEA61 /* vertical_strip.png */,
+				B43612E82770A189008EEA61 /* bird_hills_nature_foliage_hd.JPG */,
+				B43612E92770A189008EEA61 /* willowtree_apartment_sunset_hd.jpg */,
+				B43612EA2770A189008EEA61 /* barton_nature_lake_hd.JPG */,
+				B43612EB2770A189008EEA61 /* horizontal_strip.png */,
+				B43612EC2770A189008EEA61 /* barton_nature_leeve_hd.JPG */,
+				B43612ED2770A189008EEA61 /* leslie_park.png */,
+				B43612EE2770A189008EEA61 /* barton_nature_lake.JPG */,
+				B43612EF2770A189008EEA61 /* bird_hills_nature_sunset_hd.JPG */,
+				B43612F02770A189008EEA61 /* horizontal_strip_hd.png */,
+				B43612F12770A189008EEA61 /* huron_river_hd.JPG */,
+				B43612F22770A189008EEA61 /* huron_river.JPG */,
+				B43612F32770A189008EEA61 /* winsor_skyline.png */,
+				B43612F42770A189008EEA61 /* willowtree_apartment_sunset.jpg */,
+				B43612F52770A189008EEA61 /* bird_hills_nature_tree.JPG */,
+				B43612F62770A189008EEA61 /* barton_nature_swan_hd.JPG */,
+				B43612F72770A189008EEA61 /* leslie_park_hd.png */,
+			);
+			path = ImageSamples;
 			sourceTree = "<group>";
 		};
 		B4879B1D276F8877006AB6DD /* Model */ = {
@@ -225,6 +313,7 @@
 				B4FD4BBB276CE092004D9287 /* Assets.xcassets */,
 				B4FD4BBD276CE092004D9287 /* LaunchScreen.storyboard */,
 				B4FD4BC0276CE092004D9287 /* Info.plist */,
+				B43611DC2770A188008EEA61 /* ImageSamples */,
 			);
 			path = UnsplashPictures;
 			sourceTree = "<group>";
@@ -355,9 +444,35 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B43613EF2770A189008EEA61 /* vertical_strip_hd.png in Resources */,
+				B43613F42770A189008EEA61 /* barton_nature_area_bridge_hd.JPG in Resources */,
+				B43613F72770A189008EEA61 /* willowtree_apartment_sunset_hd.jpg in Resources */,
+				B43613F32770A189008EEA61 /* barton_nature_area_bridge.JPG in Resources */,
+				B43613F92770A189008EEA61 /* horizontal_strip.png in Resources */,
+				B43613ED2770A189008EEA61 /* bird_hills_nature_foliage.JPG in Resources */,
+				B43613F52770A189008EEA61 /* vertical_strip.png in Resources */,
+				B43613FE2770A189008EEA61 /* horizontal_strip_hd.png in Resources */,
+				B43614002770A189008EEA61 /* huron_river.JPG in Resources */,
+				B43614052770A189008EEA61 /* leslie_park_hd.png in Resources */,
+				B43613FC2770A189008EEA61 /* barton_nature_lake.JPG in Resources */,
+				B43613F22770A189008EEA61 /* bird_hills_nature_sunset.JPG in Resources */,
+				B43613F82770A189008EEA61 /* barton_nature_lake_hd.JPG in Resources */,
+				B43613FA2770A189008EEA61 /* barton_nature_leeve_hd.JPG in Resources */,
+				B43613F62770A189008EEA61 /* bird_hills_nature_foliage_hd.JPG in Resources */,
+				B43614032770A189008EEA61 /* bird_hills_nature_tree.JPG in Resources */,
+				B43613F02770A189008EEA61 /* bird_hills_nature_tree_hd.JPG in Resources */,
+				B43613FF2770A189008EEA61 /* huron_river_hd.JPG in Resources */,
 				B4FD4BBF276CE092004D9287 /* LaunchScreen.storyboard in Resources */,
+				B43613EE2770A189008EEA61 /* winsor_skyline_hd.png in Resources */,
+				B43614042770A189008EEA61 /* barton_nature_swan_hd.JPG in Resources */,
+				B43613FD2770A189008EEA61 /* bird_hills_nature_sunset_hd.JPG in Resources */,
+				B43614012770A189008EEA61 /* winsor_skyline.png in Resources */,
+				B43613F12770A189008EEA61 /* barton_nature_swan.JPG in Resources */,
 				B4FD4BBC276CE092004D9287 /* Assets.xcassets in Resources */,
+				B43614022770A189008EEA61 /* willowtree_apartment_sunset.jpg in Resources */,
+				B43613EC2770A189008EEA61 /* barton_nature_leeve.JPG in Resources */,
 				B4FD4BBA276CE08F004D9287 /* Main.storyboard in Resources */,
+				B43613FB2770A189008EEA61 /* leslie_park.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +611,7 @@
 				B4879B21276FC293006AB6DD /* HomeCollectionViewCell.swift in Sources */,
 				B4879D1E27704D86006AB6DD /* UIImageView+Extensions.swift in Sources */,
 				B4FD4BB3276CE08F004D9287 /* AppDelegate.swift in Sources */,
+				B4879D2A27709D05006AB6DD /* PhotosLoadingFooter.swift in Sources */,
 				B4FD4BB5276CE08F004D9287 /* SceneDelegate.swift in Sources */,
 				B4879B1F276F888F006AB6DD /* PhotoModel.swift in Sources */,
 				B4879D2827705EAA006AB6DD /* UnsplashModel.swift in Sources */,
