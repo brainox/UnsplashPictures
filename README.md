@@ -1,6 +1,9 @@
 # UnsplashPictures
 UnsplashPictures is a photo gallery app
 
+![Simulator Screen Shot - iPhone 12 Pro - 2021-12-21 at 11 11 19](https://user-images.githubusercontent.com/12437059/146912615-53a6e083-c296-4a26-94b1-eb9d5d35674b.png)
+
+
 ## Problem 
 The task was to build a simple app that allows viewing and interacting with a grid of curated photos from Unsplash.
 
