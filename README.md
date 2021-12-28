@@ -11,7 +11,6 @@ The task was to build a simple app that allows viewing and interacting with a gr
 I built the app by utilizing UICollectionView Compositional Layout. It's a new Apple API for building complex layouts usually not possible using UICollectionViewFlowLayout. 
 The grid supports pagination, i.e you can scroll on the grid of photos infinitely. 
 Images are easily cached using SDWebImage framework to effectively save device resources. 
-An iOS app that fetches musical practice session data from an API and displays it on the UI. It also displays the maximum output increase from one exercise sesion to another.
 
 ## Technologies Used
 
